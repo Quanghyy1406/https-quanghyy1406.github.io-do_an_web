@@ -1120,6 +1120,8 @@ header {
     .main-header {
         flex-wrap: wrap;
         gap: 18px;
+        justify-content: center;
+        padding-bottom: 20px;
     }
     .logo {
         position: static;
@@ -1128,7 +1130,7 @@ header {
     .navigation ul {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 18px;
+        gap: 14px;
     }
     .header-right {
         width: 100%;
@@ -1146,11 +1148,57 @@ header {
     .instagram-section .insta-grid {
         grid-template-columns: 1fr;
     }
+    .hero-section {
+        min-height: 60vh;
+    }
     .hero-arrow {
         display: none;
     }
+    .hero-content {
+        padding: 0 16px;
+    }
     .one-fine-day {
         min-height: 420px;
+    }
+    .collection-item .img-box,
+    .product-img,
+    .lookbook-large .img-box {
+        height: 320px;
+    }
+    .lookbook-product .product-img {
+        height: 260px;
+    }
+    .lookbook-product .product-card {
+        padding: 20px;
+    }
+    .policy-bar {
+        padding: 40px 5%;
+    }
+    .gotta-have-it {
+        padding: 60px 5% 50px;
+    }
+    .tabs {
+        gap: 18px;
+    }
+    .slide-arrow {
+        width: 44px;
+        height: 44px;
+    }
+    .slide-arrow.left {
+        left: -22px;
+    }
+    .slide-arrow.right {
+        right: -22px;
+    }
+    .site-footer .footer-grid {
+        grid-template-columns: 1fr;
+    }
+    .newsletter-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .newsletter-form button {
+        width: 100%;
     }
 }
 
@@ -1159,9 +1207,62 @@ header {
         min-width: auto;
     }
     .hero-content h2 {
-        font-size: 3.2rem;
+        font-size: 2.6rem;
+    }
+    .hero-content .subtitle {
+        font-size: 11px;
+        letter-spacing: 2px;
     }
     .fine-day-content h2 {
-        font-size: 4rem;
+        font-size: 3.2rem;
+    }
+    .top-collections {
+        padding: 40px 4% 30px;
+    }
+    .collection-item .img-box {
+        height: 280px;
+    }
+    .btn-shop-white img {
+        max-width: 180px;
+    }
+    .product-img {
+        height: 260px;
+    }
+    .product-list {
+        padding: 0 8px;
+        gap: 24px;
+    }
+    .one-fine-day {
+        margin: 60px 0;
+    }
+    .fine-day-content {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+    .lookbook-large .img-box {
+        height: 320px;
+    }
+    .lookbook-product .product-img {
+        height: 240px;
+    }
+    .brand-quote {
+        padding: 40px 10%;
+    }
+    .navigation ul {
+        gap: 12px;
+    }
+    .header-right {
+        gap: 12px;
+    }
+    .tabs {
+        gap: 12px;
+    }
+    .price,
+    .product-card h4 {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .site-footer {
+        padding: 40px 5% 30px;
     }
 }
