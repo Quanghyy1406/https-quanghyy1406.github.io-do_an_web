@@ -345,20 +345,41 @@ header {
 }
 
 .btn-primary {
-    background-color: #fff;
-    color: #111;
-    padding: 16px 38px;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1.2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    color: inherit;
     border-radius: 0;
     box-shadow: none;
-    display: inline-block;
+}
+
+.btn-primary img,
+.btn-shop-white img {
+    display: block;
+    width: auto;
+    max-width: 220px;
+    height: auto;
 }
 
 .btn-primary:hover {
-    background-color: #f1f1f1;
-    color: #111;
+    background: none;
+}
+
+.btn-shop-white {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    background: none;
+    color: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 /* --- 3. TOP COLLECTIONS --- */
